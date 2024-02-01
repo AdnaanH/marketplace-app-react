@@ -14,7 +14,7 @@ function TopHeader() {
           <FaFacebook size={20} color="#f1faee" className='cursor-pointer' />
           <FaInstagram size={20} color="#f1faee" className='cursor-pointer' />
           <FaTiktok size={20} color="#f1faee" className='cursor-pointer' />
-          <strong className='text-mpGrey cursor-pointer ml-4 text-sm'>KSH <span>0</span></strong>
+          <strong className='text-mpGrey cursor-pointer ml-4 text-sm'>KSH <span>1000</span></strong>
       </div>
     </header>
   )
