@@ -1,4 +1,4 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
+import CarouselCat from './CarouselCat'
 
 function ShopCategory() {
   return (
@@ -8,19 +8,8 @@ function ShopCategory() {
                 SHOP BY CATEGORY
             </span>
         </h1>
-        <div>
-        <Swiper
-          spaceBetween={50}
-          slidesPerView={3}
-          onSlideChange={() => console.log('slide change')}
-          onSwiper={(swiper) => console.log(swiper)}
-        >
-            <SwiperSlide>1</SwiperSlide>
-            <SwiperSlide>2</SwiperSlide>
-            <SwiperSlide>3</SwiperSlide>
-            <SwiperSlide>4</SwiperSlide>
-            <SwiperSlide>5</SwiperSlide>
-        </Swiper>
+        <div className='flex'>
+            <CarouselCat />
         </div>
     </section>
   )
