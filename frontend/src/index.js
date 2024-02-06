@@ -16,6 +16,7 @@ import LoyaltyPoints from './pages/LoyaltyPoints'
 import Profile from './pages/Profile'
 import Returns from './pages/Returns'
 import Shipping from './pages/Shipping'
+import Login from './components/Login';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -36,6 +37,7 @@ root.render(
             <Route path='/profile' element={<Profile />} />
             <Route path='/returns' element={<Returns />} />
             <Route path='/shipping' element={<Shipping />} />
+            <Route path='/login' element={<Login />} />
         </Route>
       </Routes>
     </BrowserRouter>
